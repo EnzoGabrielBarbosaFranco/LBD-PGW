@@ -3,71 +3,83 @@
 
 <head>
     <title>LBD - LABORATÓRIO BIO DIAGNOSTICO</title>
-</head>   
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-    <table id="conteiner" width="100%" height="100%" cellspacing="0" bgcolor="white">
-        <tr>
-            <td valign="top">
-                <table align="center" width="1140px" id="topo" width="100%" height="30px" bgcolor="#25435B" cellspacing="0"> 
-                    <tr>
-                        <td> <img src="./fone.png"><font color="#fffffff"> <b>(67) 3056-9300</b> </font></td>
-                        <td> <img src="./zap.png"><font color="#fffffff"> <b>(67) 98205-0034</b> </font></td>
-                        <td><img src="./icone_facebook.png"/></td>
-                        <td><img src="./icone_instagram.png"/></td>
-                    </tr>
-                </table>
-                <table align="center" width="1140px" id="menu" width="100%" height="60" cellspacing="10"> 
-                    <tr>
-                        <td><img src="./logolbd.png"/></td>
-                        <td><b>INSTRUÇÕES DE <br> COLETA</b></td>
-                        <td><b>EMPRESA</b></td>
-                        <td><b>ENDEREÇO</b></td>
-                        <td><b>CERTIFICAÇÕES</b></td>
-                        <td><b>DICAS</b></td>
-                        <td><b>CONTATO</b></td>
-                    </tr>
-                </table>
-                <table align="center" height="360px" id="resultado" background="top_resultado_exame.png" width="1140px" cellspacing="15">
-                    <tr>
-                        <td>
-                            <table width="400px" align="center" cellspacing="15" bgcolor="#a3c6ff">
-                                <tr>
-                                    <td><input type="image" src="resultado_exames.png"></td>
-                                </tr>
-                    <tr>
-                        <td>
-                            <select>
-                                <option>PACIENTE</option>
-                                <option>MÉDICO</option>
-                                <option>CONVÊNIO</option>
-                                <option>POSTO</option>
-                                <option>DESTINO</option>
-                            </select>
-                        </td>
-                    </tr>
-                        <tr>
-                            <td><input  type="text" value="Insira seu Login"/></td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" value="Insira sua Senha"/></td>
-                        </tr>
-                        <tr>
-                            <td><input type="image" src="acesse_exames.png"></td>
-                        </tr>
-                    </table>
-                </td>
-                <td valign="top" align="end"><input type="image" src="certifica.png"></td>
-            </tr>
-                </table>
-                <table cellspacing="75" id="imagens_do_meio" align="center" height="360px">
-                        <td> <img src="instrucaoexame.png" alt=""> </td>
-                        <td> <img src="agendexame.png" alt=""> </td>
-                        <td> <img src="coleta_resid.png" alt=""> </td>
-                        <td> <img src="plan_saude.png" alt=""> </td>
-            
-                </table>
-            </td>
+    <table id="conteiner" cellspacing="0" align="center">
+        <td valign="top">
+            <table id="cabecalho">
+                <tr>
+                    <td id="redesSociais">
+                        <img src="./fone.png">
+                        <font color="#fffffff"> <b>(67) 3056-9300</b> </font>
+                    </td>
+                    <td> <img src="./zap.png">
+                        <font color="#fffffff"> <b>(67) 98205-0034</b> </font>
+                    </td>
+                    <td><img src="./icone_facebook.png" /></td>
+                    <td><img src="./icone_instagram.png" /></td>
+                </tr>
+            </table>
+            <table id="opcoes">
+                <tr>
+                    <td><img src="./logolbd.png" /></td>
+                    <td><b>INSTRUÇÕES DE <br> COLETA</b></td>
+                    <td><b>EMPRESA</b></td>
+                    <td><b>ENDEREÇO</b></td>
+                    <td><b>CERTIFICAÇÕES</b></td>
+                    <td><b>DICAS</b></td>
+                    <td><b>CONTATO</b></td>
+                </tr>
+            </table>
+            <table id="imagemFundo" align="center">
+                <tr>
+                    <td width="500px">
+                        <table id="ResultadoDosExames">
+                            <tr>
+                                <td><input type="image" src="resultado_exames.png"></td>
+                            </tr>
+                            <tr>
+                                <td id="seleção">
+                                    <select>
+                                        <option>PACIENTE</option>
+                                        <option>MÉDICO</option>
+                                        <option>CONVÊNIO</option>
+                                        <option>POSTO</option>
+                                        <option>DESTINO</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="selecionaCampos"><input type="text" value="Insira seu Login" /></td>
+                            </tr>
+                            <tr>
+                                <td id="selecionaCampos"><input type="text" value="Insira sua Senha" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="image" src="acesse_exames.png"></td>
+                            </tr>
+                        </table>
+                    </td>
+
+                    <td align="center" valign="top">
+                        <img src="certifica.png">
+                    </td>
+                </tr>
+            </table>
+
+            <table id="servicos" cellspacing="70">
+                <tr id="linha">
+                    <td> <img src="instrucaoexame.png" alt=""> </td>
+                    <td> <img src="agendexame.png" alt=""> </td>
+                    <td> <img src="coleta_resid.png" alt=""> </td>
+                    <td> <img src="plan_saude.png" alt=""> </td>
+                </tr>
+            </table>
+        </td>
         </tr>
     </table>
 </body>
+
 </html>

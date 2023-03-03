@@ -1,0 +1,71 @@
+#conteiner {
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#cabecalho {
+    justify-content: space-between;
+    background-color: #25435B;
+    height: 30px;
+    color: white;
+    font-weight: 700;
+    margin-top: -5px;
+    width: 100%;
+}
+
+#redesSociais {
+    color: #ffff;
+}
+
+#opcoes {
+    width: 100%;
+    height: 60;
+    word-spacing: 10;
+}
+
+#imagemFundo {
+    width: 1200px;
+    height: 380px;
+    background-image: url(top_resultado_exame.png);
+}
+
+
+#ResultadoDosExames {
+    color: #a3c6ff;
+    opacity: 0.7;
+    background-repeat: repeat;
+    padding-top: 5px;
+    border-radius: 6px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 350px;
+    height: 260px;
+    background-image: url(http://lbd.net.br/img/fundo_quad_exame.png);
+   
+}
+
+#selecionaCampos {
+    text-align: center;
+}
+
+#servicos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20% 
+    margin-right: 15%;
+}
+#linhas{
+    
+}
