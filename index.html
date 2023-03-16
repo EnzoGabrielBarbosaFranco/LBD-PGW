@@ -2,84 +2,77 @@
 <html lang="en">
 
 <head>
-    <title>LBD - LABORATÓRIO BIO DIAGNOSTICO</title>
     <link rel="stylesheet" href="style.css">
+    <title>LBD - LABORATÓRIO BIO DIAGNOSTIC</title>
 </head>
 
 <body>
-    <table id="conteiner" cellspacing="0" align="center">
-        <td valign="top">
-            <table id="cabecalho">
-                <tr>
-                    <td id="redesSociais">
-                        <img src="./fone.png">
-                        <font color="#fffffff"> <b>(67) 3056-9300</b> </font>
-                    </td>
-                    <td> <img src="./zap.png">
-                        <font color="#fffffff"> <b>(67) 98205-0034</b> </font>
-                    </td>
-                    <td><img src="./icone_facebook.png" /></td>
-                    <td><img src="./icone_instagram.png" /></td>
-                </tr>
-            </table>
-            <table id="opcoes">
-                <tr>
-                    <td><img src="./logolbd.png" /></td>
-                    <td><b>INSTRUÇÕES DE <br> COLETA</b></td>
-                    <td><b>EMPRESA</b></td>
-                    <td><b>ENDEREÇO</b></td>
-                    <td><b>CERTIFICAÇÕES</b></td>
-                    <td><b>DICAS</b></td>
-                    <td><b>CONTATO</b></td>
-                </tr>
-            </table>
-            <table id="imagemFundo" align="center">
-                <tr>
-                    <td width="500px">
-                        <table id="ResultadoDosExames">
-                            <tr>
-                                <td><input type="image" src="resultado_exames.png"></td>
-                            </tr>
-                            <tr>
-                                <td id="seleção">
-                                    <select>
-                                        <option>PACIENTE</option>
-                                        <option>MÉDICO</option>
-                                        <option>CONVÊNIO</option>
-                                        <option>POSTO</option>
-                                        <option>DESTINO</option>
-                                    </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td id="selecionaCampos"><input type="text" value="Insira seu Login" /></td>
-                            </tr>
-                            <tr>
-                                <td id="selecionaCampos"><input type="text" value="Insira sua Senha" /></td>
-                            </tr>
-                            <tr>
-                                <td><input type="image" src="acesse_exames.png"></td>
-                            </tr>
-                        </table>
-                    </td>
+    <div class="isso">
 
-                    <td align="center" valign="top">
-                        <img src="certifica.png">
-                    </td>
-                </tr>
-            </table>
+        <div class="whatsapp">
+            <a>
+                <img src="https://images.tcdn.com.br/static_inst/integracao/imagens/whatsapp.png">
+            </a>
+        </div>
 
-            <table id="servicos" cellspacing="70">
-                <tr id="linha">
-                    <td> <img src="instrucaoexame.png" alt=""> </td>
-                    <td> <img src="agendexame.png" alt=""> </td>
-                    <td> <img src="coleta_resid.png" alt=""> </td>
-                    <td> <img src="plan_saude.png" alt=""> </td>
-                </tr>
-            </table>
-        </td>
-        </tr>
-    </table>
+        <div class="row center topo" height="30">
+            <div class="row" style="margin-left: 24px;">
+                <h4>
+                    <img src="fone.png">(67) 3056-9300
+                    <img src="zap.png" alt="">(67) 98205-0034
+                </h4>
+            </div>
+            <div class="row center" style="gap: 12px; margin-right: 24px;">
+                <img src="icone_facebook.png" />
+                <img src="icone_instagram.png" />
+            </div>
+        </div>
+
+        <div class="row center menu">
+            <img src="logolbd.png" />
+            <a class="botao row center"><b>INSTRUÇÕES DE <BR></BR> COLETA</b></a>
+            <a class="botao row center"><b>EMPRESA</b></a>
+            <a class="botao row center"><b>ENDEREÇO</b></a>
+            <a class="botao row center"><b>CERTIFICAÇÕES</b></a>
+            <a class="botao row center"><b>DICAS</b></a>
+            <a class="botao row center"><b>CONTATO</b></a>
+        </div>
+
+        <div class="row login" style="justify-content: space-around;">
+            <div class="row center" style="justify-content: space-around;">
+                <div class="login-painel">
+                    <img src="resultado_exames.png" width="200px" />
+                    <form class="col center login-form" id="login" accept-charset="utf-8">
+                        <select id="resultado" class="login-form-select">
+                            <option value="paciente">Paciente</option>
+                            <option value="medico">Médico</option>
+                            <option value="convenio">Convênio</option>
+                            <option value="posto">Posto</option>
+                            <option value="destino">Destino</option>
+                        </select>
+
+                        <input type="text" id="log" class="select2" placeholder="Insira seu Login">
+                        <input type="password" id="pass" class="select2" placeholder="Insira sua Senha">
+                        <input type="image" src="acesse_exames.png" onclick="alert('Login');">
+                    </form>
+                </div>
+            </div>
+
+            <img width="213px" height="85px" style="margin-left: 150px; margin-top: 20px;" src="certifica.png" />
+        </div>
+
+        <br>
+
+        <div class="row center" style="justify-content: space-around;">
+            <img src="instrucaoexame.png" />
+            <img src="agendexame.png" />
+            <img src="coleta_resid.png" />
+            <img src="plan_saude.png" />
+        </div>
+
+    </div>
+    <br>
+    <br>
 </body>
 
 </html>

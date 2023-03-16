@@ -1,71 +1,110 @@
-#conteiner {
-    width: 60%;
-    height: 60%;
-    background-color: white;
-    text-align: center;
-    justify-content: center;
-
-}
-
-#cabecalho {
+.topo{
     justify-content: space-between;
     background-color: #25435B;
     height: 30px;
     color: white;
     font-weight: 700;
     margin-top: -5px;
-    width: 100%;
 }
 
-#redesSociais {
-    color: #ffff;
+.menu{
+    justify-content: space-between;
 }
 
-#opcoes {
-    width: 100%;
-    height: 60;
-    word-spacing: 10;
+.botao{
+    text-align: center;
+    font-size: 14px;
+    color: #575757;
+    width: 120;
+    height: 70;
+    margin: 3px;
 }
 
-#imagemFundo {
-    width: 1200px;
-    height: 380px;
-    background-image: url(top_resultado_exame.png);
-}
-
-
-#ResultadoDosExames {
-    color: #a3c6ff;
-    opacity: 0.7;
-    background-repeat: repeat;
-    padding-top: 5px;
+.botao:hover{
+    border: 3px solid #75ffcf;
     border-radius: 6px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    margin: 0px;
+}
+
+.login{
+    width: 100%;
+    height: 435px;
+    background-image: url(top_resultado_exame.png);
+    
+}
+
+.login-painel{
     width: 350px;
     height: 260px;
-    background-image: url(http://lbd.net.br/img/fundo_quad_exame.png);
-   
-}
-
-#selecionaCampos {
-    text-align: center;
-}
-
-#servicos {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    box-sizing: border-box;
-    margin-top: 15px;
-    margin-bottom: 60px;
-    display: inline-block;
-    vertical-align: top;
-    width: 20% 
-    margin-right: 15%;
-}
-#linhas{
     
+    background-color: #007bff;
+    filter:opacity(alpha=60);
+    -moz-opacity:0.7;
+    opacity:0.7;
+    
+    background-repeat: repeat;
+        
+    padding-top:5px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.select2{
+  
+  padding: 5px;
+  border-radius: 7px;
+  width:250px;
+  height:25px;
+}
+
+.login-form{
+    display: flex;
+    gap: 10px;
+}
+
+.login-form-select{
+      border: 1px solid blue;
+      padding: 5px;
+      border-radius: 7px;
+      width: 250px;
+      height: 30px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row ;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.center-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+    background-color: #25435B;
+    height: 160px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    padding: 10px;
+    z-index: 100;
+}
+.isso{
+    align-items: center; 
 }
